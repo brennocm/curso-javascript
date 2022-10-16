@@ -30,7 +30,7 @@ var titulos = 10;
 var frase3 = `O Palmeiras tem ${titulos + 1} titulos brasileiros`;
 console.log(frase3)
 
-/* Exercício
+/* Exercícios
 Declare uma variável contendo uma string
 
 Declare uma variável contendo um número dentro de uma string

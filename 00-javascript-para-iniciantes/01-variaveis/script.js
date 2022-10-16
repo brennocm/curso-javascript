@@ -15,7 +15,7 @@ console.log(livro);
 var livro = 'Pensamentos e ações de um qualquer';
 console.log(livro);
 
-/* Exercício
+/* Exercícios
 Declarar uma variável com o seu nome
 
 Declarar uma variável com a sua idade
