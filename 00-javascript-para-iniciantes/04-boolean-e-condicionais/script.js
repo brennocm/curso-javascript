@@ -43,3 +43,15 @@ if(x === 10){
 } else {
   console.log('Falso');
 }
+
+if((5 - 5) && (5+5)) {
+  console.log('Verdadeiro');
+} else {
+  console.log('False');
+}
+
+if((5 - 5) || (5+5)) {
+  console.log('Verdadeiro');
+} else {
+  console.log('False');
+}
