@@ -4,7 +4,7 @@ function areaQuadrado(lado){
 
 console.log(areaQuadrado(5));
 console.log(areaQuadrado(10));
-console.log(areaQuadrado(7));
+console.log(areaQuadrado(8));
 
 function msg(){
   console.log("Função Ativa!!")
