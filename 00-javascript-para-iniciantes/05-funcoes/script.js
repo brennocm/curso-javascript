@@ -88,18 +88,7 @@ console.log(faltaVisitar(3))
  addEventListener é uma função nativa do JavaScript
  o primeiro parâmetro é o evento que ocorre e o segundo o Callback
  utilize essa função para mostrar no console o seu nome completo
- quando o evento 'scroll' ocorrer.
-
- Corrija o erro abaixo
-function precisoVisitar(paisesVisitados) {
-  var totalPaises = 193;
-  return `Ainda faltam ${totalPaises - paisesVisitados} países para visitar`;
-}
-function jaVisitei(paisesVisitados) {
-  return `Já visitei ${paisesVisitados} do total de ${totalPaises} países`;
-}
-precisoVisitar(20);
-jaVisitei(20);
+ quando o evento 'click' ocorrer.
 */
 
 function verificaTruthy(dado){
@@ -139,10 +128,16 @@ function verificaPar(numero){
 console.log(verificaPar(4));
 console.log(verificaPar(1));
 
+// -
+
 function tipo(valor){
   return typeof valor;
 }
 
-console.log(tipo('9'))
-console.log(tipo(9))
-console.log(tipo(true))
+console.log(tipo('9'));
+console.log(tipo(9));
+console.log(tipo(true));
+
+addEventListener('click', function(){
+  console.log('Brenno')
+});
