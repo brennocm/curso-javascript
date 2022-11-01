@@ -36,7 +36,7 @@ var futebol = {
 };
 
 console.log(futebol.melhorTime('Palmeiras'));
-console.log(futebol.saldoJogadores(2));
+console.log(futebol.saldoJogadores(3));
 console.log(futebol);
 
 console.log(Math.random());
